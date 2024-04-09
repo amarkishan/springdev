@@ -1,0 +1,31 @@
+#1.
+http://localhost:9091/addbook
+   {
+     "bookid":    "100",
+     "bookname":  "CoreJAVA",
+     "author"  :  "Oracle Crop",
+     "price"   :  "450"
+    }
+  #2.    
+    // get all books
+    
+    http://localhost:9091/allbooks
+    
+  #3. GetbookById
+  
+  //http://localhost:9091/bookid/100
+	//GetMapping : Book by ID            100  
+    
+   #4.
+    //http://localhost:9091/bookid/100
+	//Delete Record :     
+    
+   #5. //Update :(PUT)    
+    //http://localhost:9091/updatebook
+	/*{
+	     "bookid":    "100",
+	     "bookname":  "JAVA",
+	     "author"  :  "Oracle Crop",
+	     "price"   :  "950"
+	    } */
+	
