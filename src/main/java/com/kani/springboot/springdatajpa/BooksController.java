@@ -65,7 +65,13 @@ public class BooksController {
 	@PutMapping("/updatebook")
 	public Books update(@RequestBody Books books) {
 		booksService.update(books); 
-		return books; 	} 
+		return books; 	}
+
+	@GetMapping("/hello")
+	public String hello()
+	{
+		return "welcome";
+	}
 	
 	
 }
